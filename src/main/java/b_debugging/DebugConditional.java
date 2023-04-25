@@ -4,7 +4,7 @@ public class DebugConditional {
     public static void main(String[] args) {
         var v = 0;
 
-        for (int i = 1000; i > 0; i--) {
+        for (int i = 1000; i >= 0; i--) {
             v = (i < 9999) ? (10 / i) : (10 * i);
         }
 
