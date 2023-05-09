@@ -3,8 +3,8 @@
 ### Metody (obiekty)
 #### Zadanie 1 - Ćwiczenia
 1. Utwórz publiczną klasę Shape z właściwościami:
-* publiczna szerokość int
-* publiczna wysokość int
+* public width int
+* public height int
 
 #### Zadanie 2 - Ćwiczenia
 1. Utwórz publiczną klasę Rectangle, która dziedziczy po Shape

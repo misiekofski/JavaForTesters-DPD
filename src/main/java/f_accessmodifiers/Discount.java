@@ -1,17 +1,13 @@
 package f_accessmodifiers;
 
 public class Discount {
-    private double amount;
+    private double value; // 0 - 0.99
 
-    public double getAmount() {
-        return amount;
+    public double getValue() {
+        return value;
     }
 
-    public void setAmount(double amount) {
-        if (amount>1 || amount<0) {
-            throw new IllegalArgumentException("Discount cannot be less than 0 or more than 1");
-        } else {
-            this.amount = amount;
-        }
+    public void setValue(double value) {
+        this.value = value;
     }
 }
